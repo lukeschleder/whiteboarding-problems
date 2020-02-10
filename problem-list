@@ -11,3 +11,9 @@ Write a function, .vreplace() that extends the String prototype by replacing all
 String.prototype.vreplace = function(vowel) {
 	return this.replace(/[aeiou]/gi, vowel);
 }
+
+Write a function redundant that takes in a string str and returns a function that returns str.
+
+function redundant(str) {
+  return function() { return str; };
+}
