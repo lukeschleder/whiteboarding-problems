@@ -17,3 +17,14 @@ Write a function redundant that takes in a string str and returns a function tha
 function redundant(str) {
   return function() { return str; };
 }
+
+Create a function that squares every digit of a number 
+
+function squareDigits(n) {
+	var arr=[]
+for(var i=0;i<n.toString().length;i++){
+var sqt=Math.pow(Number(n.toString().charAt(i)),2)
+arr.push(sqt)
+}
+	return Number(arr.join(''));
+}
