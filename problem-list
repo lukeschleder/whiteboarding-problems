@@ -99,3 +99,9 @@ Create a function that finds the maximum range of a triangle's third edge, where
 function nextEdge(side1, side2) {
 	return (side1+side2)-1;
 }
+
+Create a function that returns the number of frames shown in a given number of minutes for a certain FPS.
+
+function frames(minutes, fps) {
+	return minutes * (fps*60);
+}
