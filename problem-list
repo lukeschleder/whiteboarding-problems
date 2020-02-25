@@ -113,3 +113,11 @@ function dividesEvenly(a, b) {
 		return true;
 	} else return false;
 }
+
+Implement a function that returns true if the parameters are equal, and false if they are different.
+
+function checkEquality(a, b) {
+  if ( a === b ){
+		return true;
+	} else return false;
+}
