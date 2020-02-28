@@ -133,3 +133,11 @@ Write a function that takes two integers (hours, minutes) and converts them into
 function convert(hours, minutes) {
 	return (hours*3600)+(minutes*60);
 }
+
+Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+
+function lessThan100(a, b) {
+	if(a+b<100){
+		return true;
+	}else return false;
+}
