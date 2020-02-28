@@ -151,3 +151,19 @@ function search(arr, item) {
 		}
 	}
 }return -1;
+
+Write a function to reverse an array.
+
+function reverse(arr) {
+	let result = [];
+	for ( let i = arr.length-1; i>-1; i--){
+		result.push(arr[i]);
+	}
+	return result;
+}
+
+or...
+
+function reverse(arr) {
+	return arr.reverse(); // uses built in method
+}
