@@ -141,3 +141,13 @@ function lessThan100(a, b) {
 		return true;
 	}else return false;
 }
+
+Create a function that finds the index of a given item.
+
+function search(arr, item) {
+	for(i=0; i++; i<arr.length){
+		if (arr[i] = item){
+			return item;
+		}
+	}
+}return -1;
